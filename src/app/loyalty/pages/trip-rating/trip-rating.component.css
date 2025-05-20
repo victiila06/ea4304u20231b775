@@ -1,0 +1,31 @@
+.general-container {
+  display: flex;
+  margin-top: 5vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 5vh;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+button {
+  margin: 1rem;
+  background-color: aqua;
+  padding: 1rem;
+  border: black solid 2px;
+  border-radius: 15px;
+}

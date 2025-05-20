@@ -1,0 +1,23 @@
+{
+  "rating": {
+    "title": "Trip Rating",
+    "subtitle": "Add a Rating for the Trip ypu completed",
+    "bookingCode": "Insert Booking Code",
+    "ph1": "Booking code",
+    "rate": "Insert your rating (1 to 5)",
+    "ph2": "Rating",
+    "button": "Rate Trip",
+    "noCode": "Invalid Booking Code",
+    "noDate": "You can only rate trips you have completed",
+    "success": "Trip successfully rated"
+  },
+  "home": {
+    "title": "Home",
+    "welcome": "Welcome to Travely",
+    "subtitle": "Booked Trips"
+  },
+  "card": {
+    "departed": "Departed Travelers: ",
+    "avgRating": "Average Rating: "
+  }
+}

@@ -1,0 +1,10 @@
+<div class="general-container">
+  <h1>{{ 'home.title' | translate }}</h1>
+  <h3>{{ 'home.welcome' | translate }}</h3>
+  <h2>{{ 'home.subtitle' | translate }}</h2>
+  <div class="cards-container">
+    @for (trip of trips; track trip.id) {
+      <app-trip-summary [trip]="trip"></app-trip-summary>
+    }
+  </div>
+</div>

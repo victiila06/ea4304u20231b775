@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-header>
+    <h2>{{ trip.name }}</h2>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{ trip.description }}</p>
+  </mat-card-content>
+  <mat-card-footer>
+    <p>{{ 'card.departed' | translate }} {{ departed }}</p>
+    <p>{{ 'card.avgRating' | translate }} {{ avgRating? (avgRating | number: '1.0-1') : 'No rating' }}</p>
+  </mat-card-footer>
+</mat-card>

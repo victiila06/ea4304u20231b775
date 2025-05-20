@@ -1,0 +1,23 @@
+{
+  "rating": {
+    "title": "Puntuacion de los viajes",
+    "subtitle": "Agrega una puntuacion para el viaje que completaste",
+    "bookingCode": "Inserta tu codigo de reserva",
+    "ph1": "Codigo de reserva",
+    "rate": "Inserta tu puntuacion (1 a 5)",
+    "ph2": "Puntuacion",
+    "button": "Puntear el viaje",
+    "noCode": "Codigo de reserva invalido",
+    "noDate": "Solo puedes puntear viajes que hayas completado",
+    "success": "Viaje punteado con exito"
+  },
+  "home": {
+    "title": "Inicio",
+    "welcome": "Bienvenido a Travely",
+    "subtitle": "Viajes reservados"
+  },
+  "card": {
+    "departed": "Cantidad de viajeros a bordo: ",
+    "avgRating": "Puntuacion promedio: "
+  }
+}

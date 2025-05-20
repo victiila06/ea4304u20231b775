@@ -1,0 +1,20 @@
+mat-card {
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  min-width: 250px;
+}
+
+mat-card-header {
+  background-color: blue;
+  align-items: center;
+  border-radius: 10px;
+  border: black solid 2px;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}

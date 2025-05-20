@@ -1,0 +1,22 @@
+<div class="general-container">
+  <h1>{{ 'rating.title' | translate }}</h1>
+  <h2>{{ 'rating.subtitle' | translate }}</h2>
+  <form>
+    <div class="form-field">
+      <label>{{ 'rating.bookingCode' | translate }}</label>
+      <input type="text" [(ngModel)]="bookingCode" [ngModelOptions]="{standalone: true}" [placeholder]="('rating.ph1' | translate)"/>
+    </div>
+    <div class="form-field">
+      <label>{{ 'rating.rate' | translate }}</label>
+      <input type="number" [(ngModel)]="ratingInput" [ngModelOptions]="{standalone: true}" [placeholder]="('rating.ph2' | translate)" min="1" max="5"/>
+    </div>
+  </form>
+  <button (click)="onSubmit()">{{ 'rating.button' | translate }}</button>
+  @if (counter == 1) {
+    <h3>{{ 'rating.noCode' | translate }}</h3>
+  } @else if (counter == 2) {
+    <h3>{{ 'rating.noDate' | translate }}</h3>
+  } @else if (counter == 3) {
+    <h3>{{ 'rating.success' | translate }}</h3>
+  }
+</div>
